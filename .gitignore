@@ -69,3 +69,5 @@ data/
 *.sqlite
 *.sqlite3
 uploads/
+# commandcode local memory
+.commandcode/

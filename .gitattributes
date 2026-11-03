@@ -1,0 +1,24 @@
+# Normalize line endings so diffs are stable across Windows and Unix.
+* text=auto eol=lf
+
+# Keep binary assets intact.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.pdf binary
+
+# Python
+*.py text eol=lf
+*.toml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+
+# Lockfiles are generated — keep them out of diff noise.
+poetry.lock -diff
+uv.lock -diff

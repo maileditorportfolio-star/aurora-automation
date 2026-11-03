@@ -18,6 +18,7 @@ python -m venv .venv
 # macOS / Linux
 source .venv/bin/activate
 
+pip install -r requirements.txt
 pip install -e ".[dev]"
 cp .env.example .env   # edit with your values
 ```

@@ -42,7 +42,7 @@ rich==15.0.0
     # via typer
 shellingham==1.5.4
     # via typer
-typer==0.27.3
+typer==0.28.0
     # via aurora-automation (pyproject.toml)
 typing-extensions==4.16.0
     # via

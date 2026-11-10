@@ -32,7 +32,7 @@ mdurl==0.1.2
     # via markdown-it-py
 pydantic==2.14.2
     # via aurora-automation (pyproject.toml)
-pydantic-core==2.50.2
+pydantic-core==2.50.4
     # via pydantic
 pygments==2.21.0
     # via rich

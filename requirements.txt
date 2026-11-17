@@ -26,7 +26,7 @@ idna==3.20
     # via
     #   anyio
     #   httpx
-markdown-it-py==4.2.0
+markdown-it-py==4.3.0
     # via rich
 mdurl==0.1.2
     # via markdown-it-py
